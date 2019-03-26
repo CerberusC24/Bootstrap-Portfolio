@@ -26,3 +26,7 @@ h1 {
 .imgbrdr {
   border-width: 5px !important;
 }
+
+.custom-font1 {
+  font-family: 'Saira', sans-serif;
+}
