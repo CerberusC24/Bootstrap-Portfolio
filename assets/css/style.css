@@ -1,0 +1,28 @@
+.custom-brand {
+  font-family: 'Germania One', cursive;
+}
+
+.cerberus-resize {
+  width: 100%;
+}
+
+.main-section {
+  width: 100%;
+}
+
+.profile-pic {
+  width: 100%;
+}
+
+#main-container {
+  border-width: 5px !important;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 3px;
+}
+
+.imgbrdr {
+  border-width: 5px !important;
+}
