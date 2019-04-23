@@ -46,41 +46,39 @@
   </nav>
 
   <div id="main-container" class="container mt-3 border border-warning bg-dark text-light">
-    <section class="main-section">
-      <h1>Contact</h1>
+    <h1>Contact</h1>
 
-      <form>
-        <div class="form-group">
-          <label for="exampleInputEmail1">Email</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-            placeholder="Enter Name">
-          <small id="emailHelp" class="form-text text-muted">Privacy is the Best Policy. We will never share your
-            information with any third party.</small>
-        </div>
-        <div class="form-group">
-          <label for="exampleInputName1">Name</label>
-          <input type="name" class="form-control" id="exampleInputName1" placeholder="Name">
-        </div>
+    <div class="row d-flex">
+      <div class="col-12 col-md-4">
+        <form>
+          <div class="form-group">
+            <label for="exampleInputName1">Name</label>
+            <input type="name" class="form-control" id="name-input" placeholder="Full Name">
+          </div>
+          <div class="form-group">
+            <label for="exampleInputEmail1">Email</label>
+            <input type="email" class="form-control" id="email-input" aria-describedby="emailHelp"
+              placeholder="Email Address">
+          </div>
+          <div class="form-group ml-auto mb-3">
+            <a href="mailto:chrisoliveira1787@gmail.com" type="submit"
+              class="btn btn-block btn-warning text-center">Submit</a>
+          </div>
+        </form>
+      </div>
+      <div class="col-12 col-md-8">
         <div class="form-group">
           <label for="exampleInputName1">Message</label>
-          <textarea rows="3" type="name" class="form-control" id="exampleInputName1" placeholder="Name"></textarea>
+          <textarea rows="3" type="name" class="form-control" id="message-input" placeholder="Name"></textarea>
           <small id="emailHelp" class="form-text text-muted">Send me any questions, requests, or concerns.</small>
         </div>
-        <div class="form-group form-check">
-          <input type="checkbox" class="form-check-input" id="exampleCheck1">
-          <label class="form-check-label" for="exampleCheck1">I agree that any information provided is accurate</label>
-        </div>
-        <div class="row ml-auto mb-3">
-          <button type="submit" class="btn btn-warning text-center">Submit</button>
-        </div>
-      </form>
-
-    </section>
+      </div>
+    </div>
 
   </div>
-  
+
   <footer>
-    <div class=" w-100 sticky-bottom container text-light bg-dark p-3 text-center mt-3 mb-2">
+    <div class="sticky-bottom container text-light bg-dark p-3 text-center mt-3">
       Copyright &copy;
     </div>
   </footer>
